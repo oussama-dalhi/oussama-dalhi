@@ -17,7 +17,7 @@ Just trying to build performant projects, have fun doing it, understand how thin
 
 * Build challenging projects (and actually finish them)
 * Get better at JavaScript
-* Understand memory (no more magic 🧠)
+* Understand memory
 * Data Structures & Algorithms
 * More advanced concepts in C
 
@@ -25,11 +25,10 @@ Just trying to build performant projects, have fun doing it, understand how thin
 
 ## PROJECTS I DID
 
-* JavaScript30 challenge by Wes Bos
-* A Drum Kit 
-* A Clock (I needed it.)
-* Caesar Cipher (CS50 — encrypting & decrypting)
-* Random Password Generator
+* A ChatBot App
+* A Habit Tracker
+* An OBD Error Code Lockup
+* Caesar Cipher (encrypting | decrypting & BruteForce)
 * More done…
 * More coming…
 
@@ -37,10 +36,11 @@ Just trying to build performant projects, have fun doing it, understand how thin
 
 ## I USE
 
-* C
+* React
 * JavaScript
-* HTML
 * CSS
+* HTML
+* C (Programming Language)
 * Git 
 
 ---
@@ -54,7 +54,12 @@ Just trying to build performant projects, have fun doing it, understand how thin
 
 ## IMPORTANT
 
-> printf("Just consistent.\n");
+> #include <stdio.h>
+int main(void)
+{
+  printf("Just consistent.\n");
+  return 0;
+};
 
 ---
 
