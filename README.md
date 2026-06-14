@@ -1,77 +1,113 @@
 # Oussama Dalhi
 
-Just trying to build performant projects, have fun doing it, understand how things *actually* work, and eventually craft really awesome software.
+Just trying to build performant projects, have fun doing it, understand how things actually work, and eventually craft really awesome software.
 
 ---
 
 ## Fun Facts
 
 * I break things on purpose just to understand why they break
-* I care more about fundamentals
-* I enjoy turning “wait… how does this work?” into “oh, that’s actually simple”
-* I like Bugs (not always)
+* I care more about fundamentals than frameworks
+* I enjoy turning "wait... how does this work?" into "oh, that's actually simple"
+* I like bugs (not always)
+* I sometimes build things just because I'm curious
 
 ---
 
-## MY LEARNING ARC
+## What I'm Learning
 
-* Build challenging projects (and actually finish them)
-* Get better at JavaScript
-* Understand memory
+* JavaScript & React
+* Backend development with FastAPI
+* Computer Networks
+* Linux & System Programming
 * Data Structures & Algorithms
-* More advanced concepts in C
+* C Programming
 
 ---
 
-## PROJECTS I DID
+## Projects
 
-* A ChatBot App
-* A Habit Tracker
-* An OBD Error Code Lockup
-* Caesar Cipher (encrypting | decrypting & BruteForce)
-* More done…
-* More coming…
+### HTTP Server in C
+
+Built a simple HTTP server from scratch using Winsock on Windows, then ported it and rebuilt it for Linux using POSIX sockets.
+
+**Features**
+
+* TCP socket communication
+* HTTP request parsing
+* Static file serving
+* Cross-platform implementation
+
+### YouTube Transcript Extractor
+
+A full-stack application that extracts transcripts from YouTube videos using FastAPI.
+
+**Tech Stack**
+
+* FastAPI
+* Python
+* JavaScript
+
+### German Learning App
+
+A simple learning platform for practicing German vocabulary and common phrases.
+
+### OBD-II Error Code Lookup
+
+A web application for looking up and understanding vehicle diagnostic trouble codes.
+
+### ChatBot App
+
+Built to explore APIs, frontend development, and interactive user experiences.
 
 ---
 
-## I USE
+## Tech I Use
+
+**Frontend**
 
 * React
 * JavaScript
-* CSS
 * HTML
-* C (Programming Language)
-* Git 
+* CSS
+
+**Backend**
+
+* FastAPI
+* Python
+
+**Systems**
+
+* C
+* Linux
+* Socket Programming
+
+**Tools**
+
+* Git
+* GitHub
+* NeoVim
 
 ---
 
-## CURRENT OBJECTIVE
+## Right Now
 
-* Build real stuff
-* Deploy it
+* Building projects and actually finishing them
+* Learning more backend and systems programming
+* Trying to understand what's happening under the hood
 
 ---
 
-## IMPORTANT
+```c
+#include <stdio.h>
 
-> #include <stdio.h>
 int main(void)
 {
-  printf("Just consistent.\n");
-  return 0;
-};
-
----
-
+    printf("Build. Learn. Repeat.\n");
+    return 0;
+}
+```
 
 
 
-<!--
-**oussama-dalhi/oussama-dalhi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
 
