@@ -56,10 +56,6 @@ A simple learning platform for practicing German vocabulary and common phrases.
 
 A web application for looking up and understanding vehicle diagnostic trouble codes.
 
-### ChatBot App
-
-Built to explore APIs, frontend development, and interactive user experiences.
-
 ---
 
 ## Tech I Use
