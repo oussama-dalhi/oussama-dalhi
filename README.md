@@ -36,7 +36,7 @@ A lightweight image viewer written in C using SDL2 and stb_image.
 - Load and display images from the command line.
 - Render images in an SDL2 window.
 - Build and run using Make.
-- Published my first release: [`v0.1.0`](https://github.com/oussama-dalhi/cViewer/releases).
+- Published [`releases`](https://github.com/oussama-dalhi/cViewer/releases).
 
 **Tech:** C · SDL2 · Make · Linux
 
