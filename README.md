@@ -26,9 +26,10 @@ A lightweight image viewer written in C with SDL2 and stb_image.
 
 ### [HTTP Server in C](https://github.com/oussama-dalhi/c-http-server)
 
-An HTTP server built from scratch with Winsock on Windows, then ported to Linux with POSIX sockets to learn how the two socket APIs differ.
+HTTP server from scratch in C. Static files, custom 404, path traversal protection. Linux, macOS and Windows.
 
 - TCP socket communication
+- Cross Platform implementaion (Win, Linux, macOS)
 - HTTP request parsing
 - Static file serving
 
