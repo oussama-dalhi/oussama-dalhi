@@ -1,83 +1,82 @@
 # Hi, I'm Oussama
 
-I build software to understand how it works under the hood. Right now I'm focused on C, Linux, and systems programming, plus backend and frontend web development.
+I like understanding what happens underneath frameworks and abstractions. I write C for systems programming and build web apps with Python, FastAPI, JavaScript and React.
 
-I like turning "Wait, how does this work?" into "Oh, that makes sense." That usually means digging through the docs, tracking down the root cause of a bug, and fixing it properly.
+I'm currently focused on C, Linux and networking, alongside backend and frontend web development, and I like building tools that solve real problems.
 
 ## What I'm Working On
 
-- **Systems programming in C**: processes, memory, and operating system concepts
-- **Linux**: the command line, development tools, and system internals
-- **Networking**: sockets, HTTP, and inter-process communication
-- **Backend development**: building and deploying APIs
-- **Frontend development**: building interfaces with React and Tailwind CSS
-- **CS fundamentals**: data structures, algorithms, and problem solving
+- **Systems & Networking:** C, Linux, sockets, TCP/IP and HTTP, plus memory management and file I/O.
+- **Backend:** REST API design, SQL databases and Prisma ORM, authentication, caching and rate limiting.
+- **Frontend:** JavaScript, React and Tailwind CSS.
+- **CS Fundamentals:** Data structures, algorithms and problem solving.
 
 ## Featured Projects
 
-### [cViewer](https://github.com/oussama-dalhi/cViewer)
+### [YouTube Transcript Extractor](https://github.com/oussama-dalhi/youtube-transcript-extractor)
 
-A lightweight image viewer written in C with SDL2 and stb_image.
+A full-stack application for extracting YouTube transcripts and managing saved transcript history. **[Live demo](https://transcript.oussama-dalhi.dev/)**
 
-- Loads images from the command line and renders them in an SDL2 window
-- Built with Make; [releases](https://github.com/oussama-dalhi/cViewer/releases) available
+- Optional user authentication and persistent transcript history.
+- PostgreSQL database with user-specific transcript storage.
+- In-memory caching and API rate limiting.
+- Deployed on FastAPI Cloud with Neon PostgreSQL.
 
-`C` · `SDL2` · `Make` · `Linux`
+`Python` · `FastAPI` · `JavaScript` · `PostgreSQL`
 
 ### [HTTP Server in C](https://github.com/oussama-dalhi/c-http-server)
 
-HTTP server from scratch in C. Static files, custom 404, path traversal protection. Linux, macOS and Windows.
+An HTTP server written in C that serves static files from any directory, with custom 404 handling and path traversal protection.
 
-- TCP socket communication
-- Cross Platform implementaion (Win, Linux, macOS)
-- HTTP request parsing
-- Static file serving
+- Built on raw TCP sockets, with its own HTTP request parser.
+- Written first with Winsock on Windows, then ported to Linux with POSIX sockets.
 
-`C` · `Winsock` · `POSIX sockets` · `HTTP`
+`C` · `Winsock` · `POSIX Sockets` · `HTTP`
 
-### [YouTube Transcript Extractor](https://github.com/oussama-dalhi/youtube-transcript-extractor)
+### [cViewer](https://github.com/oussama-dalhi/cViewer)
 
-A full-stack app that extracts transcripts from YouTube videos.
+A lightweight image viewer written in C using SDL2 and stb_image.
 
-- FastAPI backend with an in-memory cache
-- Lightweight HTML/JavaScript frontend
-- Deployed on FastAPI Cloud
+- Loads images from the command line and renders them in an SDL2 window.
+- Automatically resizes while preserving image aspect ratio.
+- Built with Make. [Releases](https://github.com/oussama-dalhi/cViewer/releases) available.
 
-`Python` · `FastAPI` · `JavaScript`
+`C` · `SDL2` · `Make` · `Linux`
 
 ### More Projects
 
-- [**German Learning App**](https://github.com/oussama-dalhi/de-learn-german): practice German vocabulary and common phrases (`React`)
-- [**OBD-II Error Code Lookup**](https://github.com/oussama-dalhi/obd-code-lookup): look up and understand vehicle diagnostic trouble codes (`JavaScript` · `HTML` · `CSS`)
+- [**OBD-II Error Code Lookup**](https://github.com/oussama-dalhi/obd-code-lookup) ([live demo](https://obd.oussama-dalhi.dev/)): Look up vehicle diagnostic trouble codes, including symptoms and possible fixes (`JavaScript` · `HTML` · `CSS`).
+- [**German Learning App**](https://github.com/oussama-dalhi/de-learn-german): Learn German vocabulary and common phrases based on your level (`React`).
 
 ## Open Source
 
-**[pdfcraft](https://github.com/storytold/pdfcraft)**: contributed UI fixes to an open-source PDF toolkit.
+**[pdfcraft](https://github.com/storytold/pdfcraft)**: Contributed UI fixes to an open-source PDF toolkit.
 
-- [#696](https://github.com/storytold/pdfcraft/pull/696): fixed the command palette not closing on outside click
-- [#1121](https://github.com/storytold/pdfcraft/pull/1121): fixed the text-selection cursor appearing on the "All tools" toggle
+- [#696](https://github.com/storytold/pdfcraft/pull/696): Made the command palette close when clicking outside it, in addition to the existing Esc shortcut.
+- [#1121](https://github.com/storytold/pdfcraft/pull/1121): Fixed the text-selection cursor appearing on the "All tools" toggle.
 
 ## Tech Stack
 
-- **Languages:** C · Python · JavaScript · SQL
-- **Systems & Networking:** Linux · POSIX sockets · TCP/IP · HTTP
-- **Backend:** FastAPI · REST APIs · SQLite
+- **Languages:** C · Python · JavaScript · TypeScript · SQL
+- **Systems & Networking:** Linux · POSIX Sockets · TCP/IP · HTTP
+- **Backend:** Node.js · Express · FastAPI · Prisma · PostgreSQL · REST APIs
 - **Frontend:** React · Tailwind CSS · HTML · CSS
-- **Graphics:** SDL2
-- **Tools:** Git & GitHub · Vim · GCC & Make
+- **Tools:** Git · GitHub · Vim · GCC · Make · Neon
 
 ## Get in Touch
 
+- LinkedIn: [oussama-dalhi-dev](https://www.linkedin.com/in/oussama-dalhi-dev/)
 - Email: [oussamadalhi5@gmail.com](mailto:oussamadalhi5@gmail.com)
 
 ---
 
 ```c
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(void)
 {
     printf("Build. Learn. Repeat.\n");
-    return 0;
+    return EXIT_SUCCESS;
 }
 ```
