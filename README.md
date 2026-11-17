@@ -13,6 +13,17 @@ I'm currently focused on C, Linux and networking, alongside backend and frontend
 
 ## Featured Projects
 
+### [Devbook](https://github.com/oussama-dalhi/devbook)
+
+A full-stack social platform where developers can share posts, images and project updates. **[Live demo](https://devbook.oussama-dalhi.dev/)**
+
+- Cookie-based authentication with short-lived JWTs.
+- PostgreSQL database with Prisma ORM and Zod validation.
+- Secure image uploads with ImageKit.
+- Infinite-scrolling feed powered by TanStack Query.
+
+`TypeScript` · `React` · `Express` · `PostgreSQL` · `Prisma` · `Tailwind CSS` · `shadcn/ui`
+
 ### [YouTube Transcript Extractor](https://github.com/oussama-dalhi/youtube-transcript-extractor)
 
 A full-stack application for extracting YouTube transcripts and managing saved transcript history. **[Live demo](https://transcript.oussama-dalhi.dev/)**
